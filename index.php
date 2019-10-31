@@ -21,8 +21,7 @@ $Obcj->b(); //Call method from Class
 
 
 */
-
-
+/*-----------------------------------------------------*/
 /*
 
 @PROPERTIS & METHOD
@@ -51,13 +50,11 @@ $PlayObject = new Items();
 echo $PlayObject->getItem1();
 
 */
-
-
+/*-----------------------------------------------------*/
 /* 
-
 @CONSTRUCTOR
 */
-
+/*
 $Obj = new ClassConstruct('jono',29,'male');
 
 echo "{$Obj->gender} </br>";
@@ -69,6 +66,8 @@ $print = new PrintData();
 $person = $print->out($Obj);
 
 echo $person;
+*/
+/*-----------------------------------------------------*/
 
 
 
