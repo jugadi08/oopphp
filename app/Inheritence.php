@@ -14,7 +14,9 @@ class ParentItems
 
 	public function setDiscount(){
 
-		$val = $this->discount
+		$val = $this->discount;
+
+		return $val;
 	}
 
 	public function getDiscount(){
@@ -33,5 +35,9 @@ class ChildItem extends ParentItems
 
 			   $type;
 
+	public function __construct(){
+
+		
+	}
 
 }

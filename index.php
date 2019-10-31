@@ -1,5 +1,9 @@
 <?php 
 
+/* EXAMPLE IMPLEMENTATION OOP PHP WITH RANDOM CASE  */
+/*
+
+*/
 require_once './app/ClassSatu.php';
 
 require_once './app/Items.php';
