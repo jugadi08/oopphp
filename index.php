@@ -1,14 +1,27 @@
 <?php 
-/*
+
 require_once './app/ClassSatu.php';
+
+require_once './app/Items.php';
+
+require_once './app/ClassConstruct.php';
+
+/*
+
+@INSTANCE CLASS TO OBJECT
 
 $Obcj = new ClassSatu; //Create Object instance from class
 
+
 $Obcj->b(); //Call method from Class
+
+
 */
 
 
-require_once './app/Items.php';
+/*
+
+@PROPERTIS & METHOD
 
 $ObjItems1 = new Items();
 
@@ -27,13 +40,20 @@ $randomPropertis = $ObjItems1->rand='Hey did I get an error?';
 var_dump('Add random properti without define first <b>['. $randomPropertis.']</b></br>');
 
 
-//play with method
+@ play with method
 
 $PlayObject = new Items();
 
 echo $PlayObject->getItem1();
 
+*/
 
+
+/* 
+	@CONSTRUCTOR
+*/
+
+$Obj = new ClassConstruct();
 
 
 
