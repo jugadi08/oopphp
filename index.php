@@ -6,6 +6,8 @@ require_once './app/Items.php';
 
 require_once './app/ClassConstruct.php';
 
+require_once './app/ObjectType.php';
+
 /*
 
 @INSTANCE CLASS TO OBJECT
@@ -50,11 +52,22 @@ echo $PlayObject->getItem1();
 
 
 /* 
-	@CONSTRUCTOR
+
+@CONSTRUCTOR
 */
 
-$Obj = new ClassConstruct('ana',19,'female');
+$Obj = new ClassConstruct('jono',29,'male');
 
-echo $Obj->gender;
+echo "{$Obj->gender} </br>";
+
+//@OBJECT TYPE
+
+$print = new PrintData();
+
+$person = $print->out($Obj);
+
+echo $person;
+
+
 
 
