@@ -2,10 +2,21 @@
 
 
 class ClassConstruct
-{
+{	
+	public $name,
+
+		   $age,
+
+		   $gender;
+
 	
-	function __construct()
+	public function __construct($name='name',$age=null,$gender='gender')
 	{
-		echo 'class call frist';
+		$this->name=$name;
+
+		$this->age=$age;
+
+		$this->gender=$gender;
+
 	}
 }

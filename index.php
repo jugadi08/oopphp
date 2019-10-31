@@ -53,7 +53,8 @@ echo $PlayObject->getItem1();
 	@CONSTRUCTOR
 */
 
-$Obj = new ClassConstruct();
+$Obj = new ClassConstruct('ana',19,'female');
 
+echo $Obj->gender;
 
 
