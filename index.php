@@ -8,6 +8,8 @@ require_once './app/ClassConstruct.php';
 
 require_once './app/ObjectType.php';
 
+require_once './app/Inheritence.php';
+
 /*
 
 @INSTANCE CLASS TO OBJECT
