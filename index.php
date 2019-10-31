@@ -2,11 +2,11 @@
 /*
 require_once './app/ClassSatu.php';
 
-$Obcj = new ClassSatu; //Create Object onstance from class
+$Obcj = new ClassSatu; //Create Object instance from class
 
 $Obcj->b(); //Call method from Class
-
 */
+
 
 require_once './app/Items.php';
 
@@ -14,7 +14,7 @@ $ObjItems1 = new Items();
 
 $newItem= $ObjItems1->item1='kaos oblong';
 
-var_dump('Obect instance  new items value [ '.$newItem.'] overwrite default value with new value </br>');
+var_dump('Obect instance  new item value [ '.$newItem.'] overwrite default value with new value </br>');
 
 $ObjItems2 = new Items();
 
