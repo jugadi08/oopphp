@@ -14,11 +14,17 @@ $ObjItems1 = new Items();
 
 $newItem= $ObjItems1->item1='kaos oblong';
 
-var_dump('Obect instance  new item value [ '.$newItem.'] overwrite default value with new value </br>');
+var_dump('Object instance  new item value <b>[ '.$newItem.']</b> overwrite default value with new value </br>');
 
 $ObjItems2 = new Items();
 
-var_dump('Object new instance call same item propertis [ '.$ObjItems2->item1.' ] defult value');
+var_dump('Object new instance call same item propertis <b>[ '.$ObjItems2->item1.' ]</b> defult value </br>');
+
+//case add new properti without define frist
+
+$randomPropertis = $ObjItems1->rand='Hey did I get an error?';
+
+var_dump('Add random properti without define first <b>['. $randomPropertis.']</b>');
 
 
 
