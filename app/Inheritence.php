@@ -4,7 +4,9 @@
 */
 class ParentItems
 {
-	public $price,
+	public $name,
+
+		   $price,
 
 		   $discount,
 
@@ -12,31 +14,21 @@ class ParentItems
 
 		   $task;
 
+
 	public function setDiscount($discount=null){
 
 		$this->discount =$discount;
-		
+
 	}
 
 	public function getDiscount(){
 
 		return $this->discount;
 	}
-
 }
 
 class ChildItem extends ParentItems 
 {
 
-		public $name,
-
-			   $color,
-
-			   $type;
-
-	public function __construct(){
-
-
-	}
 
 }

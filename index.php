@@ -1,9 +1,7 @@
 <?php 
 
 /* EXAMPLE SIMPLE IMPLEMENTATION OOP PHP WITH RANDOM CASE  */
-/*
 
-*/
 require_once './app/ClassSatu.php';
 
 require_once './app/Items.php';
@@ -25,7 +23,9 @@ $Obcj->b(); //Call method from Class
 
 
 */
+
 /*-----------------------------------------------------*/
+
 /*
 
 @PROPERTIS & METHOD
@@ -54,7 +54,9 @@ $PlayObject = new Items();
 echo $PlayObject->getItem1();
 
 */
+
 /*-----------------------------------------------------*/
+
 /* 
 @CONSTRUCTOR
 */
@@ -71,9 +73,12 @@ $person = $print->out($Obj);
 
 echo $person;
 */
+
 /*-----------------------------------------------------*/
 
-
+/*
+@INHERITANCE
+*/
 $items = new ChildItem;
 
 $items->setDiscount(10);
