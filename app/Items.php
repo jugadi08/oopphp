@@ -5,10 +5,17 @@
  */
 class Items
 {
-	public $item1='Kaos';
+	public $item1='Kaos',
 
-	public $item2='Baju';
+	       $item2='Baju',
 
-	public $item3='Tas';
+	       $item3='Tas';
+
+
+	public function getItem1(){
+
+		return $this->item1;
+
+	}
 
 }
