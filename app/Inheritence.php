@@ -12,11 +12,10 @@ class ParentItems
 
 		   $task;
 
-	public function setDiscount(){
+	public function setDiscount($discount=null){
 
-		$val = $this->discount;
-
-		return $val;
+		$this->discount =$discount;
+		
 	}
 
 	public function getDiscount(){
@@ -37,7 +36,7 @@ class ChildItem extends ParentItems
 
 	public function __construct(){
 
-		
+
 	}
 
 }

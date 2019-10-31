@@ -1,6 +1,6 @@
 <?php 
 
-/* EXAMPLE IMPLEMENTATION OOP PHP WITH RANDOM CASE  */
+/* EXAMPLE SIMPLE IMPLEMENTATION OOP PHP WITH RANDOM CASE  */
 /*
 
 */
@@ -74,5 +74,10 @@ echo $person;
 /*-----------------------------------------------------*/
 
 
+$items = new ChildItem;
 
+$items->setDiscount(10);
 
+$item =$items->getDiscount();
+
+echo $item;
