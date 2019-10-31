@@ -18,7 +18,7 @@ var_dump('Obect instance  new item value [ '.$newItem.'] overwrite default value
 
 $ObjItems2 = new Items();
 
-var_dump('Object new instance call same items propertis [ '.$ObjItems2->item1.' ] defult value');
+var_dump('Object new instance call same item propertis [ '.$ObjItems2->item1.' ] defult value');
 
 
 
