@@ -2,15 +2,17 @@
 
 /* EXAMPLE SIMPLE IMPLEMENTATION OOP PHP WITH RANDOM CASE  */
 
-require_once './app/ClassSatu.php';
+//require_once './app/ClassSatu.php';
 
-require_once './app/Items.php';
+//require_once './app/Items.php';
 
-require_once './app/ClassConstruct.php';
+//require_once './app/ClassConstruct.php';
 
-require_once './app/ObjectType.php';
+//require_once './app/ObjectType.php';
 
-require_once './app/Inheritence.php';
+//require_once './app/Inheritence.php';
+
+require_once './app/Overide.php';
 
 /*
 
