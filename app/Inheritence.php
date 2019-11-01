@@ -30,5 +30,12 @@ class ParentItems
 class ChildItem extends ParentItems 
 {
 
+		//overide concat method
+		public function getDiscount(){
+
+			$str = parent::getDiscount();
+
+			return $str;
+		}
 
 }
