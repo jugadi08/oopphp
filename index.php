@@ -79,6 +79,7 @@ echo $person;
 /*
 @INHERITANCE
 */
+/*
 $items = new ChildItem;
 
 $items->setDiscount(10);
@@ -86,3 +87,16 @@ $items->setDiscount(10);
 $item =$items->getDiscount();
 
 echo $item;
+*/
+/*
+@OVERIDE
+*/
+
+$citem = new ChildItem;
+
+$citem->setDiscount(10);
+
+$item =$citem->getDiscount();
+
+echo $item;
+

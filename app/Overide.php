@@ -1,6 +1,6 @@
 <?php 
 /*
-	Example Code in simple case
+	Example Code in simple case OVERIDE
 */
 class ParentItems
 {
@@ -30,5 +30,12 @@ class ParentItems
 class ChildItem extends ParentItems 
 {
 
-		
+		//overide concat method
+		public function getDiscount(){
+
+			$str = parent::getDiscount();
+
+			return $str;
+		}
+
 }
