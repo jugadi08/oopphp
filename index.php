@@ -12,7 +12,9 @@
 
 //require_once './app/Inheritence.php';
 
-require_once './app/Overide.php';
+//require_once './app/Overide.php';
+
+require_once './app/GeterSeter.php';
 
 /*
 
@@ -90,10 +92,11 @@ $item =$items->getDiscount();
 
 echo $item;
 */
+/*-----------------------------------------------------*/
 /*
 @OVERIDE
 */
-
+/*
 $citem = new ChildItem;
 
 $citem->setDiscount(10);
@@ -101,4 +104,16 @@ $citem->setDiscount(10);
 $item =$citem->getDiscount();
 
 echo $item;
+*/
+/*-----------------------------------------------------*/
+
+//@GETER SETER
+/*
+$items = new Items();
+
+$items->setName('cholting');
+
+$item = $items->getName();
+
+echo $item;*/
 
